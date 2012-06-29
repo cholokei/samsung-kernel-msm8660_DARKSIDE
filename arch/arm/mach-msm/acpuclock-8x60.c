@@ -259,6 +259,7 @@ static struct clkctl_acpu_speed acpu_freq_tbl_oc[] = {
   { {1, 1}, 1890000,  ACPU_SCPLL, 0, 0, 1, 0x23, L2(22), 1350000, 0x03006000},
   { {1, 1}, 1944000,  ACPU_SCPLL, 0, 0, 1, 0x24, L2(22), 1375000, 0x03006000},
   { {1, 1}, 1998000,  ACPU_SCPLL, 0, 0, 1, 0x25, L2(22), 1375000, 0x03006000},
+#endif
   { {0, 0}, 0 },
 };
 /* acpu_freq_tbl row to use when reconfiguring SC/L2 PLLs. */
