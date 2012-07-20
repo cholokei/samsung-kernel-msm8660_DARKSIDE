@@ -373,6 +373,10 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -fno-strict-aliasing -fno-common \
 		   -Wno-format-security \
 		   -fno-delete-null-pointer-checks
+		   -ffast-math \
+		   -mtune=cortex-a9 \
+		   -march=armv7-a \
+		   -mfpu=neon
 KBUILD_AFLAGS_KERNEL :=
 KBUILD_CFLAGS_KERNEL := -DTARGET_PRODUCT="$(TARGET_PRODUCT)"
 KBUILD_AFLAGS   := -D__ASSEMBLY__
