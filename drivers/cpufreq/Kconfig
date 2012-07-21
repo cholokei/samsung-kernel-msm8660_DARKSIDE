@@ -242,7 +242,7 @@ config CPU_FREQ_GOV_BADASS_2_PHASE
 
 config CPU_FREQ_GOV_BADASS_2_PHASE_FREQ
 	int "'2-phase' badass frequency"
-	default 918000
+	default 1080000
 	depends on CPU_FREQ_GOV_BADASS
 	depends on CPU_FREQ_GOV_BADASS_2_PHASE
 
@@ -255,7 +255,7 @@ config CPU_FREQ_GOV_BADASS_3_PHASE
 
 config CPU_FREQ_GOV_BADASS_3_PHASE_FREQ
 	int "'3-phase' badass frequency"
-	default 1188000
+	default 1242000
 	depends on CPU_FREQ_GOV_BADASS
 	depends on CPU_FREQ_GOV_BADASS_2_PHASE
 	depends on CPU_FREQ_GOV_BADASS_3_PHASE
