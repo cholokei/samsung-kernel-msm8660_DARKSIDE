@@ -1385,6 +1385,10 @@ config MSM_KGSL_GPUOC_MAX
 
 endchoice
 
+config VDD_CONTROL
+	bool "Enable CPU Voltage Table via sysfs for adjustements"
+	default y
+
 if CPU_FREQ_MSM
 
 config MSM_CPU_FREQ_SET_MIN_MAX
