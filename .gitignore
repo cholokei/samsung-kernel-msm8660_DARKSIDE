@@ -101,3 +101,6 @@ scripts/kconfig/zconf.tab.c
 scripts/mod/elfconfig.h
 scripts/mod/mk_elfconfig
 scripts/mod/modpost
+
+# Ignore version number
+version
